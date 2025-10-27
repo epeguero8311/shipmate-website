@@ -301,11 +301,9 @@ width: 100%;
 }
 
 .footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  padding: 2.5rem 0;
   background-color: #111827;
+  color: #D1D5DB;
 }
 
 .footer-container {
@@ -318,10 +316,6 @@ width: 100%;
   margin-top: 0.5rem;
 }
 .footer a {
-  color: white;
-  text-decoration: none;
-}
-.footer p {
   color: white;
   text-decoration: none;
 }

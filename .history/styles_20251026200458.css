@@ -201,7 +201,7 @@ body {
 }
 
 .table {
-width: 100%;
+  width: 100%;
   max-width: 64rem;
   margin-left: auto;
   margin-right: auto;
@@ -235,30 +235,6 @@ width: 100%;
 
 .table-row {
   border-bottom: 1px solid #E5E7EB;
-}
-
-.table tbody tr {
-  height: auto; /* allow flexible row height */
-}
-
-.table tbody tr td,
-.table tbody tr th {
-  padding: 1.2rem 1.5rem; /* more vertical + horizontal padding */
-  line-height: 1.5;       /* increase line height for readability */
-}
-
-.table tbody tr:not(:last-child) {
-  border-bottom: 1px solid #e5e7eb; /* subtle separation between rows */
-}
-
-/* Optional: alternating row color for clarity */
-.table tbody tr:nth-child(even) {
-  background-color: #f9fafc;
-}
-
-/* Optional: slightly rounded cells for a modern look */
-.table td, .table th {
-  border-radius: 6px;
 }
 
 .text-center {
@@ -301,11 +277,11 @@ width: 100%;
 }
 
 .footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background-color: #111827;
+  background: #0d1b2a; /* dark navy or match your brand color */
+  color: white;
+  text-align: center;
+  padding: 1.2rem 0;
+  font-size: 0.95rem;
 }
 
 .footer-container {
@@ -317,14 +293,18 @@ width: 100%;
 .footer-link {
   margin-top: 0.5rem;
 }
+
 .footer a {
   color: white;
   text-decoration: none;
 }
-.footer p {
+
+.footer a:hover,
+.footer a:visited,
+.footer a:active {
   color: white;
-  text-decoration: none;
 }
+
 .link {
   text-decoration: underline;
   color: #D1D5DB;

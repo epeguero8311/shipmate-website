@@ -305,7 +305,6 @@ width: 100%;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #111827;
 }
 
 .footer-container {
@@ -318,10 +317,6 @@ width: 100%;
   margin-top: 0.5rem;
 }
 .footer a {
-  color: white;
-  text-decoration: none;
-}
-.footer p {
   color: white;
   text-decoration: none;
 }
