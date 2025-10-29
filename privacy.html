@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShipMate – Privacy Policy</title>
+  <link rel="icon" href="assets/icon.png" type="image/png" />
+  <link rel="stylesheet" href="legal-styles.css">
+</head>
+<body class="legal">
+  <header class="legal-header">
+    <div class="logo">ShipMate</div>
+    <nav class="legal-nav">
+      <a href="index.html" class="nav-btn">🏠 Home</a>
+      <a href="terms.html" class="nav-btn">📄 Terms of Service</a>
+    </nav>
+  </header>
+  <main class="legal-content">
+    <h1>Privacy Policy</h1>
+    <p class="intro">
+      ShipMate is committed to protecting your privacy. This Privacy Policy explains how we collect, use, store, and protect your personal information when you use our Chrome extension and services.
+    </p>
+    <p class="intro">
+      <strong>Effective Date:</strong> October 27, 2025<br>
+      <strong>Last Updated:</strong> October 27, 2025
+    </p>
+
+    <!-- CRITICAL: Gmail API Disclosure -->
+    <section class="highlight">
+      <h2>🔒 Gmail API Usage & Limited Use Disclosure</h2>
+      <p><strong>ShipMate's use of information received from Gmail APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank">Google API Services User Data Policy</a>, including the Limited Use requirements.</strong></p>
+      <p>This means:</p>
+      <ul>
+        <li>We only access Gmail data necessary for package tracking functionality</li>
+        <li>We do not use Gmail data for serving advertisements</li>
+        <li>We do not sell Gmail data to third parties</li>
+        <li>We do not use Gmail data for any purpose other than package tracking</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>1. Information We Collect</h2>
+      
+      <h3>1.1 Authentication Information</h3>
+      <p>When you sign in with Google:</p>
+      <ul>
+        <li><strong>Email address</strong> – To identify your account</li>
+        <li><strong>Profile information</strong> – Name and profile picture from your Google account</li>
+        <li><strong>Google OAuth tokens</strong> – To securely authenticate you</li>
+      </ul>
+
+      <h3>1.2 Gmail Data (Critical)</h3>
+      <p>ShipMate scans your Gmail inbox to automatically detect package shipments. We collect:</p>
+      <ul>
+        <li><strong>Shipping notification emails</strong> – Only emails containing tracking information from carriers (Amazon, UPS, FedEx, USPS, DHL, etc.)</li>
+        <li><strong>Email metadata</strong> – Subject lines, sender addresses, and dates from shipping emails</li>
+        <li><strong>Tracking numbers</strong> – Extracted from shipping confirmation emails</li>
+        <li><strong>Carrier information</strong> – To identify shipping companies</li>
+        <li><strong>Delivery dates</strong> – Estimated or actual delivery dates from emails</li>
+        <li><strong>Item names</strong> – Product names mentioned in shipping emails</li>
+        <li><strong>Order numbers</strong> – Order IDs from purchase confirmations</li>
+      </ul>
+      <p><strong>Important:</strong> We ONLY scan shipping-related emails. We do not read personal correspondence, financial emails, or any other non-shipping emails.</p>
+
+      <h3>1.3 User Preferences & Settings</h3>
+      <ul>
+        <li>Theme preferences (light/dark mode)</li>
+        <li>Notification settings</li>
+        <li>Display preferences</li>
+      </ul>
+
+      <h3>1.4 Payment Information</h3>
+      <p>When you subscribe to ShipMate Pro:</p>
+      <ul>
+        <li><strong>Stripe processes all payments</strong> – We never store your credit card information</li>
+        <li><strong>Subscription status</strong> – Active, canceled, or expired</li>
+        <li><strong>Billing email</strong> – For receipts and subscription management</li>
+      </ul>
+
+      <h3>1.5 Usage Analytics (Non-Personal)</h3>
+      <ul>
+        <li>Feature usage statistics (e.g., number of packages tracked)</li>
+        <li>Error logs and crash reports</li>
+        <li>Performance metrics</li>
+      </ul>
+      <p><strong>Note:</strong> Analytics data is anonymized and cannot be linked to individual users.</p>
+    </section>
+
+    <section>
+      <h2>2. How We Use Your Information</h2>
+      <p>We use your information solely to provide and improve ShipMate services:</p>
+      
+      <h3>2.1 Package Tracking</h3>
+      <ul>
+        <li>Scan Gmail for shipping notifications</li>
+        <li>Extract tracking numbers and delivery information</li>
+        <li>Display package status in the extension</li>
+        <li>Send delivery notifications</li>
+      </ul>
+
+      <h3>2.2 AI-Powered Analysis</h3>
+      <ul>
+        <li>Use Anthropic Claude AI to analyze shipping emails and extract package information</li>
+        <li>Email content is processed securely and is not stored by Anthropic</li>
+        <li>Only shipping-related information is extracted</li>
+      </ul>
+
+      <h3>2.3 Account Management</h3>
+      <ul>
+        <li>Authenticate your Google account</li>
+        <li>Manage your subscription status</li>
+        <li>Store your preferences and settings</li>
+      </ul>
+
+      <h3>2.4 Service Improvement</h3>
+      <ul>
+        <li>Analyze anonymized usage patterns to improve features</li>
+        <li>Debug errors and improve reliability</li>
+        <li>Develop new features based on user needs</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>3. Third-Party Services</h2>
+      <p>ShipMate uses the following third-party services to operate:</p>
+
+      <h3>3.1 Google Gmail API</h3>
+      <ul>
+        <li><strong>Purpose:</strong> Access shipping emails in your inbox</li>
+        <li><strong>Data shared:</strong> Gmail emails matching shipping keywords</li>
+        <li><strong>Privacy policy:</strong> <a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></li>
+      </ul>
+
+      <h3>3.2 Firebase (Google)</h3>
+      <ul>
+        <li><strong>Purpose:</strong> Authentication and database storage</li>
+        <li><strong>Data shared:</strong> Email address, profile info, package data, settings</li>
+        <li><strong>Privacy policy:</strong> <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy Policy</a></li>
+      </ul>
+
+      <h3>3.3 Stripe</h3>
+      <ul>
+        <li><strong>Purpose:</strong> Payment processing for subscriptions</li>
+        <li><strong>Data shared:</strong> Billing email, subscription status (NO credit card data is shared with us)</li>
+        <li><strong>Privacy policy:</strong> <a href="https://stripe.com/privacy" target="_blank">Stripe Privacy Policy</a></li>
+      </ul>
+
+      <h3>3.4 Anthropic Claude AI</h3>
+      <ul>
+        <li><strong>Purpose:</strong> AI analysis of shipping emails to extract package information</li>
+        <li><strong>Data shared:</strong> Shipping email content (temporarily, not stored)</li>
+        <li><strong>Privacy policy:</strong> <a href="https://www.anthropic.com/privacy" target="_blank">Anthropic Privacy Policy</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>4. Data Storage & Security</h2>
+      
+      <h3>4.1 Where We Store Your Data</h3>
+      <ul>
+        <li><strong>Firebase Firestore:</strong> Package tracking data, user preferences, subscription status</li>
+        <li><strong>Chrome Local Storage:</strong> Extension settings and cached data</li>
+        <li><strong>Secure backend server:</strong> Temporary processing of email analysis</li>
+      </ul>
+
+      <h3>4.2 Security Measures</h3>
+      <ul>
+        <li>All data transmission uses HTTPS/TLS encryption</li>
+        <li>Firebase Authentication for secure login</li>
+        <li>API tokens are securely stored and never exposed</li>
+        <li>Regular security audits and updates</li>
+      </ul>
+
+      <h3>4.3 Data Retention</h3>
+      <ul>
+        <li><strong>Package data:</strong> Kept for 30 days after delivery (or longer if you save it)</li>
+        <li><strong>Account data:</strong> Retained while your account is active</li>
+        <li><strong>Temporary email analysis:</strong> Deleted immediately after processing</li>
+        <li><strong>Logs:</strong> Kept for 90 days for debugging purposes</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>5. What We Don't Do With Your Data</h2>
+      <ul>
+        <li>❌ We do NOT sell your data to anyone</li>
+        <li>❌ We do NOT use Gmail data for advertising</li>
+        <li>❌ We do NOT read non-shipping emails</li>
+        <li>❌ We do NOT share your data with marketers</li>
+        <li>❌ We do NOT store your credit card information</li>
+        <li>❌ We do NOT use your data for purposes other than package tracking</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>6. Your Rights & Control</h2>
+      
+      <h3>6.1 Revoke Gmail Access</h3>
+      <p>You can revoke ShipMate's access to your Gmail at any time:</p>
+      <ol>
+        <li>Go to <a href="https://myaccount.google.com/permissions" target="_blank">Google Account Permissions</a></li>
+        <li>Find "ShipMate" in the list</li>
+        <li>Click "Remove Access"</li>
+      </ol>
+
+      <h3>6.2 Delete Your Data</h3>
+      <p>You can request complete deletion of your data:</p>
+      <ul>
+        <li><strong>In-app:</strong> Settings → Account → Delete Account</li>
+        <li><strong>By email:</strong> Contact <a href="mailto:shipmateextension@gmail.com">shipmateextension@gmail.com</a></li>
+      </ul>
+      <p>We will delete all your data within 30 days of your request.</p>
+
+      <h3>6.3 Export Your Data</h3>
+      <p>Request a copy of your data by emailing <a href="mailto:shipmateextension@gmail.com">shipmateextension@gmail.com</a>. We will provide your data in a portable format within 30 days.</p>
+
+      <h3>6.4 Manage Notifications</h3>
+      <p>Control notification preferences in Settings → Notifications within the extension.</p>
+
+      <h3>6.5 Opt Out of Analytics</h3>
+      <p>Contact us to opt out of anonymized analytics data collection.</p>
+    </section>
+
+    <section>
+      <h2>7. Cookies & Local Storage</h2>
+      <p>ShipMate uses browser local storage to:</p>
+      <ul>
+        <li>Remember your login session</li>
+        <li>Save your theme and display preferences</li>
+        <li>Cache recent package data for faster loading</li>
+      </ul>
+      <p>You can clear this data anytime through Chrome settings or by uninstalling the extension.</p>
+    </section>
+
+    <section>
+      <h2>8. Children's Privacy</h2>
+      <p>ShipMate is not intended for users under 13 years of age. We do not knowingly collect personal information from children. If you believe we have collected information from a child, please contact us immediately.</p>
+    </section>
+
+    <section>
+      <h2>9. International Users</h2>
+      <p>ShipMate is operated from the United States. If you are accessing our service from outside the U.S., your information may be transferred to, stored, and processed in the U.S. By using ShipMate, you consent to this transfer.</p>
+    </section>
+
+    <section>
+      <h2>10. Changes to This Privacy Policy</h2>
+      <p>We may update this Privacy Policy from time to time. When we make changes:</p>
+      <ul>
+        <li>We will update the "Last Updated" date at the top</li>
+        <li>Significant changes will be announced in the extension</li>
+        <li>Continued use after changes constitutes acceptance</li>
+      </ul>
+      <p>We encourage you to review this policy periodically.</p>
+    </section>
+
+    <section>
+      <h2>11. Contact Us</h2>
+      <p>If you have questions about this Privacy Policy or how we handle your data:</p>
+      <ul>
+        <li><strong>Email:</strong> <a href="mailto:shipmateextension@gmail.com">shipmateextension@gmail.com</a></li>
+        <li><strong>Website:</strong> <a href="index.html">shipmatetracker.com</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>12. Legal Compliance</h2>
+      <p>ShipMate complies with applicable data protection laws including:</p>
+      <ul>
+        <li>Google API Services User Data Policy</li>
+        <li>Chrome Web Store Developer Program Policies</li>
+        <li>California Consumer Privacy Act (CCPA) - if applicable</li>
+        <li>General Data Protection Regulation (GDPR) - if applicable</li>
+      </ul>
+    </section>
+
+    <p class="last-updated"><em>Last Updated: October 27, 2025</em></p>
+  </main>
+  <footer>
+    <p>© 2025 ShipMate. All Rights Reserved.</p>
+  </footer>
+
+  <style>
+    .highlight {
+      background: #fff3cd;
+      border-left: 4px solid #ffc107;
+      padding: 1rem;
+      margin: 1.5rem 0;
+    }
+    .highlight h2 {
+      margin-top: 0;
+      color: #856404;
+    }
+    .legal-nav {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .nav-btn {
+      background: #667eea;
+      color: white;
+      padding: 8px 16px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 14px;
+      transition: all 0.3s ease;
+      display: inline-block;
+    }
+    .nav-btn:hover {
+      background: #5568d3;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+    }
+  </style>
+</body>
+</html>
