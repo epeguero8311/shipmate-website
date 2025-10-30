@@ -375,3 +375,29 @@ html {
   background: #667eea;
   color: white;
 }
+/* -------------------------------------------------
+   LEGAL-PAGE NAVIGATION BUTTONS
+   – White background + subtle hover lift
+   ------------------------------------------------- */
+.nav-btn {
+  background: rgba(255, 255, 255, 0.95);      /* solid white, slight transparency */
+  color: #667eea;                            /* text colour stays the same */
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+  backdrop-filter: blur(4px);                /* optional glass effect */
+}
+
+.nav-btn:hover {
+  background: #ffffff;                       /* pure white on hover */
+  color: #764ba2;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+}

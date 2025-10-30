@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+
+html {
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.header-container {
+  max-width: 100%;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 4rem 0;
+}
+
+.header-logo-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.header-logo {
+  width: 8%;
+  height: 8%;
+}
+
+.header-title {
+  font-size: 2.25rem;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  animation: fadeIn 1s forwards;
+}
+
+@media (min-width: 768px) {
+  .header-title {
+    font-size: 3rem;
+  }
+}
+
+.header-subtitle {
+  margin-top: 1rem;
+  font-size: 1.125rem;
+  color: #DBEAFE;
+  max-width: 32rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 768px) {
+  .header-subtitle {
+    font-size: 1.25rem;
+  }
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 500;
+  padding: 0.75rem 2rem;
+  border-radius: 9999px;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: white;
+  color: #2563EB;
+  margin-top: 1.5rem;
+}
+
+.btn-primary:hover {
+  transform: scale(1.05);
+  background-color: #EFF6FF;
+}
+
+.section {
+  padding: 5rem 0;
+  background-color: white;
+}
+
+.section-alt {
+  padding: 5rem 0;
+  background-color: #F9FAFB;
+}
+
+.section-container {
+  max-width: 100%;
+  padding: 0 1rem;
+}
+
+.section-title {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #111827;
+  text-align: center;
+  margin-bottom: 3rem;
+  animation: fadeIn 1s forwards;
+}
+
+@media (min-width: 768px) {
+  .section-title {
+    font-size: 2.25rem;
+  }
+}
+
+.section-subtitle {
+  text-align: center;
+  color: #cccccc;
+  margin-bottom: 3rem;
+  max-width: 48rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.125rem;
+}
+
+.grid {
+  display: grid;
+  gap: 3rem;
+  padding: 0 1rem;
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.grid-screenshots {
+  display: grid;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+@media (min-width: 768px) {
+  .grid-screenshots {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .grid-screenshots {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #F9FAFB;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1F2937;
+  margin-bottom: 0.75rem;
+}
+
+.card-text {
+  color: #6B7280;
+}
+
+.screenshot-img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  border: 2px solid transparent;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 4px;
+  box-sizing: border-box;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  padding: 0 1rem;
+}
+
+.table {
+width: 100%;
+  max-width: 64rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.table-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.table-cell {
+  padding: 1rem 1.5rem;
+  text-align: center;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.table-cell-left {
+  padding: 1rem 1.5rem;
+  text-align: left;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.table-body {
+  color: #4B5563;
+}
+
+.table-row {
+  border-bottom: 1px solid #E5E7EB;
+}
+
+.table tbody tr {
+  height: auto; /* allow flexible row height */
+}
+
+.table tbody tr td,
+.table tbody tr th {
+  padding: 1.2rem 1.5rem; /* more vertical + horizontal padding */
+  line-height: 1.5;       /* increase line height for readability */
+}
+
+.table tbody tr:not(:last-child) {
+  border-bottom: 1px solid #e5e7eb; /* subtle separation between rows */
+}
+
+/* Optional: alternating row color for clarity */
+.table tbody tr:nth-child(even) {
+  background-color: #f9fafc;
+}
+
+/* Optional: slightly rounded cells for a modern look */
+.table td, .table th {
+  border-radius: 6px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.cta {
+  padding: 5rem 0;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.cta-container {
+  max-width: 100%;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.cta-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .cta-buttons {
+    flex-direction: row;
+  }
+}
+
+.btn-secondary {
+  background-color: #FBBF24;
+  color: #000000;
+}
+
+.btn-secondary:hover {
+  transform: scale(1.05);
+  background-color: #FCD34D;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #111827;
+}
+
+.footer-container {
+  max-width: 100%;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.footer-link {
+  margin-top: 0.5rem;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+.footer p {
+  color: white;
+  text-decoration: none;
+}
+.link {
+  text-decoration: underline;
+  color: #D1D5DB;
+}
+
+.link:hover {
+  color: white;
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+  to { opacity: 1; }
+}

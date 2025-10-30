@@ -2,16 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1 insulated-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ShipMate – Package Tracking Chrome Extension</title>
   <meta name="description" content="ShipMate lets you track all your packages effortlessly, straight from your Gmail inbox." />
   <link rel="icon" href="assets/icon.png" type="image/png" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
-
-  <!-- HEADER -->
+<body class="body">
   <header class="header">
     <div class="header-container">
       <div class="header-logo-title">
@@ -19,13 +16,12 @@
         <img src="assets/icon.png" alt="ShipMate Logo" class="header-logo" />
       </div>
       <p class="header-subtitle">Track your packages effortlessly, straight from your Gmail inbox.</p>
-      <div class="header-buttons">
-        <a href="https://chromewebstore.google.com/detail/[your-extension-id]" class="btn btn-primary">Add to Chrome</a>
-      </div>
+        <div class="header-buttons">
+          <a href="https://chromewebstore.google.com/detail/[your-extension-id]" class="btn btn-primary">Add to Chrome</a>
+        </div>
     </div>
   </header>
 
-  <!-- WHY SHIPMATE -->
   <section class="section">
     <div class="section-container">
       <h2 class="section-title">Why ShipMate?</h2>
@@ -47,7 +43,6 @@
     </div>
   </section>
 
-  <!-- FREE VS PRO -->
   <section class="section-alt">
     <div class="section-container">
       <h2 class="section-title">Free vs Pro</h2>
@@ -62,67 +57,78 @@
           </thead>
           <tbody>
             <tr><td>Package Tracking Limit</td><td>2 active</td><td>Unlimited</td></tr>
-            <tr><td>Details View</td><td>No</td><td>Yes</td></tr>
-            <tr><td>Smart ETA</td><td>No</td><td>Yes</td></tr>
+            <tr><td>Details View</td><td>❌</td><td>✅</td></tr>
+            <tr><td>Smart ETA</td><td>❌</td><td>✅</td></tr>
             <tr><td>Advanced Filters</td><td>Basic</td><td>Store, Carrier, etc.</td></tr>
-            <tr><td>Custom Themes</td><td>Yes</td><td>Yes</td></tr>
-            <tr><td>Multi-Device Sync</td><td>Yes</td><td>Yes</td></tr>
-            <tr><td>Auto-Scan from Email</td><td>Yes</td><td>Yes</td></tr>
-            <tr><td>Priority Support</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Export (CSV/PDF)</td><td>❌</td><td>✅</td></tr>
+            <tr><td>Custom Themes</td><td>✅</td><td>✅</td></tr>
+            <tr><td>Multi-Device Sync</td><td>✅</td><td>✅</td></tr>
+            <tr><td>Auto-Scan from Email</td><td>✅</td><td>✅</td></tr>
+            <tr><td>Priority Support</td><td>❌</td><td>✅</td></tr>
           </tbody>
         </table>
-      </div>
-      <div class="header-buttons" style="margin-top: 2rem;">
-        <a href="https://chromewebstore.google.com/detail/[your-extension-id]" class="btn2 btn2-primary">Add to Chrome</a>
       </div>
     </div>
   </section>
 
-  <!-- SCREENSHOTS -->
   <section class="section">
     <div class="section-container">
       <h2 class="section-title">See ShipMate in Action</h2>
       <p class="section-subtitle">Explore how ShipMate simplifies your delivery tracking.</p>
       <div class="grid grid-screenshots">
-        <div class="card fade-in">
-          <img src="assets/screenshot1.png" class="screenshot-img" alt="Dashboard">
-          <h3>Smart Dashboard</h3>
-        </div>
-        <div class="card fade-in">
-          <img src="assets/screenshot2.png" class="screenshot-img" alt="Package Details">
-          <h3>Package Details</h3>
-        </div>
-        <div class="card fade-in">
-          <img src="assets/screenshot3.png" class="screenshot-img" alt="Dark Mode">
-          <h3>Theme Switching</h3>
-        </div>
+        <div class="card fade-in"><img src="assets/screenshot1.png" class="screenshot-img" alt="Dashboard"><h3>Smart Dashboard</h3></div>
+        <div class="card fade-in"><img src="assets/screenshot2.png" class="screenshot-img" alt="Package Details"><h3>Package Details</h3></div>
+        <div class="card fade-in"><img src="assets/screenshot3.png" class="screenshot-img" alt="Dark Mode"><h3>Theme Switching</h3></div>
       </div>
     </div>
   </section>
 
-  <!-- CTA -->
   <section class="cta">
     <div class="cta-container">
       <h2 class="section-title">Track Smarter with ShipMate</h2>
       <p class="section-subtitle">Install ShipMate now for effortless tracking. Go Pro for unlimited features.</p>
       <div class="header-buttons">
         <a href="privacy.html" class="btn btn-secondary">Privacy Policy</a>
+        <a href="https://chromewebstore.google.com/detail/[your-extension-id]" class="btn btn-primary">Add to Chrome</a>
         <a href="terms.html" class="btn btn-secondary">Terms of Service</a>
       </div>
     </div>
   </section>
 
-  <!-- FOOTER -->
   <footer class="footer">
-    <div class="footer-container">
-      <p>
-        &copy; 2025 ShipMate. All rights reserved. |
-        <a href="terms.html" class="link">Terms</a> |
-        <a href="privacy.html" class="link">Privacy</a> |
-        Contact: shipmateextension@gmail.com
-      </p>
-    </div>
+    <p>&copy; 2025 ShipMate. All rights reserved. | <a href="terms.html">Terms</a> | <a href="privacy.html">Privacy</a> | Contact shipmateextension@gmail.com</p>
   </footer>
 
+  <style>
+    /* Button group styling */
+    .header-buttons {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    .btn-secondary {
+      background: transparent;
+      color: #ffffff;
+      border: 2px solid #667eea;
+      padding: 12px 24px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 16px;
+      transition: all 0.3s ease;
+      display: inline-block;
+    }
+
+    .btn-secondary:hover {
+      background: #667eea;
+      color: white;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+    }
+  </style>
 </body>
 </html>
