@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShipMate – Package Tracking Chrome Extension</title>
+  <meta name="description" content="ShipMate lets you track all your packages effortlessly, straight from your Gmail inbox." />
+  <link rel="icon" href="assets/icons/icon.png" type="image/png" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <div class="wrapper">
+      <div class="logo">
+        <a href="index.html">
+          <img src="assets/icons/icon.png" alt="ShipMate Logo" class="nav-logo-img" />
+          ShipMate
+        </a>
+      </div>
+      <input type="radio" name="slider" id="menu-btn">
+      <input type="radio" name="slider" id="close-btn">
+      <ul class="nav-links">
+        <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="help.html">Getting Started</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="terms.html">Terms of Service</a></li>
+      </ul>
+      <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-container">
+      <div class="header-logo-title">
+        <h1 class="header-title">ShipMate</h1>
+        <img src="assets/icons/icon.png" alt="ShipMate Logo" class="header-logo" />
+      </div>
+      <p class="header-subtitle">Track your packages effortlessly, straight from your Gmail inbox.</p>
+      <div class="header-buttons">
+        <a href="https://chromewebstore.google.com/detail/shipmate-delivery-tracker/hbnidnckiggpllldjpolkijioglgdcma?utm_source=item-share-cb" class="btn btn-primary">Add to Chrome</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- VIDEO SECTION -->
+  <section class="video-section">
+    <div class="video-container">
+      <a href="https://www.youtube.com/watch?v=DmA69-PWDIE" target="_blank" class="video-link">
+        <video autoplay loop muted playsinline class="demo-video">
+          <source src="assets/demo-video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </a>
+    </div>
+  </section>
+
+  <!-- WHY SHIPMATE -->
+  <section class="section">
+    <div class="section-container">
+      <h2 class="section-title">Why ShipMate?</h2>
+      <p class="section-subtitle">ShipMate transforms package tracking with a clean, intuitive interface, pulling delivery details directly from Gmail.</p>
+      <div class="grid">
+        <div class="card fade-in">
+          <h3 class="card-title">Auto-Tracking</h3>
+          <p class="card-text">Instantly pulls tracking info from your Gmail and updates automatically.</p>
+        </div>
+        <div class="card fade-in">
+          <h3 class="card-title">Smart Dashboard</h3>
+          <p class="card-text">Organizes "In Progress" packages with powerful sorting and filtering.</p>
+              <div class="video-container">
+      <a href="https://www.youtube.com/watch?v=DmA69-PWDIE" target="_blank" class="video-link">
+        <video autoplay loop muted playsinline class="demo-video">
+          <source src="assets/demo-video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </a>
+    </div>
+        </div>
+        <div class="card fade-in">
+          <h3 class="card-title">Customizable UI</h3>
+          <p class="card-text">Toggle between light and dark modes for a tailored experience.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FREE VS PRO -->
+  <section class="section-alt">
+    <div class="section-container">
+      <h2 class="section-title">Free vs Pro</h2>
+      <div class="table-wrapper">
+        <table class="table">
+          <thead>
+            <tr class="table-header">
+              <th>Feature</th>
+              <th>Free</th>
+              <th>Pro ($4.99/mo)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Package Tracking Limit</td><td>2 active</td><td>Unlimited</td></tr>
+            <tr><td>Details View</td><td>No</td><td>Yes</td></tr>
+            <tr><td>Smart ETA</td><td>No</td><td>Yes</td></tr>
+            <tr><td>Advanced Filters</td><td>Basic</td><td>Store, Carrier, etc.</td></tr>
+            <tr><td>Custom Themes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Multi-Device Sync</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Auto-Scan from Email</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Priority Support</td><td>Yes</td><td>Yes</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="header-buttons" style="margin-top: 2rem;">
+        <a href="https://chromewebstore.google.com/detail/shipmate-delivery-tracker/hbnidnckiggpllldjpolkijioglgdcma?utm_source=item-share-cb" class="btn2 btn2-primary">Add to Chrome</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SCREENSHOTS -->
+  <section class="section">
+    <div class="section-container">
+      <h2 class="section-title">See ShipMate in Action</h2>
+      <p class="section-subtitle">Explore how ShipMate simplifies your delivery tracking.</p>
+      <div class="grid grid-screenshots">
+        <div class="card fade-in">
+          <img src="assets/screenshot1.png" class="screenshot-img" alt="Dashboard">
+          <h3>Smart Dashboard</h3>
+        </div>
+        <div class="card fade-in">
+          <img src="assets/screenshot2.png" class="screenshot-img" alt="Package Details">
+          <h3>Package Details</h3>
+        </div>
+        <div class="card fade-in">
+          <img src="assets/screenshot3.png" class="screenshot-img" alt="Dark Mode">
+          <h3>Theme Switching</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <div class="cta-container">
+      <h2 class="section-title">Track Smarter with ShipMate</h2>
+      <p class="section-subtitle">Install ShipMate now for effortless tracking. Go Pro for unlimited features.</p>
+      <div class="header-buttons">
+        <a href="help.html" class="btn btn-secondary">Getting Started</a>
+        <a href="privacy.html" class="btn btn-secondary">Privacy Policy</a>
+        <a href="terms.html" class="btn btn-secondary">Terms of Service</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-container">
+      <p>
+        &copy; 2025 ShipMate. All rights reserved. |
+        <a href="terms.html" class="link">Terms</a> |
+        <a href="privacy.html" class="link">Privacy</a> |
+        <a href="help.html" class="link">Help</a> |
+        Contact: shipmateextension@gmail.com
+      </p>
+    </div>
+  </footer>
+
+  <!-- Theme Detection Script -->
+  <script src="theme-handler.js"></script>
+
+</body>
+</html>

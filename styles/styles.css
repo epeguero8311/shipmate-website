@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
-/* ========================================
-   GLOBAL & RESET
-   ======================================== */
 * {
   margin: 0;
   padding: 0;
@@ -23,12 +20,9 @@ body {
   font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   color: #333;
-  padding-top: 70px; /* Space for fixed nav */
+  padding-top: 70px; 
 }
 
-/* ========================================
-   NAVIGATION
-   ======================================== */
 nav{
   position: fixed;
   z-index: 99;
@@ -113,7 +107,6 @@ nav .wrapper{
     box-shadow: 0px 15px 15px rgba(0,0,0,0.18);
     transition: all 0.3s ease;
   }
-  /* custom scroll bar */
   ::-webkit-scrollbar {
     width: 10px;
   }
@@ -161,9 +154,6 @@ nav input{
   display: none;
 }
 
-/* ========================================
-   HEADER
-   ======================================== */
 .header {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
@@ -174,6 +164,7 @@ nav input{
 .header-container {
   max-width: 100%;
   padding: 0 1rem;
+  padding-bottom: 2.5rem;
 }
 
 .header-logo-title {
@@ -214,9 +205,6 @@ nav input{
   .header-subtitle { font-size: 1.25rem; }
 }
 
-/* ========================================
-   BUTTONS
-   ======================================== */
 .header-buttons {
   display: flex;
   gap: 12px;
@@ -226,7 +214,6 @@ nav input{
   margin-top: 20px;
 }
 
-/* Primary Button (White with blue text) */
 .btn {
   display: inline-block;
   font-weight: 600;
@@ -248,7 +235,6 @@ nav input{
   box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
 }
 
-/* Secondary Buttons (CTA footer) */
 .btn-secondary {
   background: transparent;
   color: #ffffff;
@@ -267,7 +253,6 @@ nav input{
   box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
 }
 
-/* btn2-primary – Blue Border Button (Free vs Pro) */
 .btn2 {
   display: inline-block;
   font-weight: 600;
@@ -293,9 +278,6 @@ nav input{
   box-shadow: 0 6px 16px rgba(0, 81, 255, 0.25);
 }
 
-/* ========================================
-   SECTIONS
-   ======================================== */
 .section, .section-alt, .cta {
   padding: 5rem 0;
 }
@@ -332,9 +314,6 @@ nav input{
   font-size: 1.125rem;
 }
 
-/* ========================================
-   GRID & CARDS
-   ======================================== */
 .grid {
   display: grid;
   gap: 2rem;
@@ -388,10 +367,6 @@ nav input{
   padding: 4px;
   box-sizing: border-box;
 }
-
-/* ========================================
-   TABLE
-   ======================================== */
 .table-wrapper {
   overflow-x: auto;
   padding: 0 1rem;
@@ -429,10 +404,6 @@ nav input{
 .table tbody tr:hover {
   background-color: #f1f5f9;
 }
-
-/* ========================================
-   CTA & FOOTER
-   ======================================== */
 .cta {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
@@ -458,10 +429,6 @@ nav input{
 }
 
 .link:hover { color: white; }
-
-/* ========================================
-   ANIMATIONS
-   ======================================== */
 .fade-in {
   opacity: 0;
   animation: fadeIn 1s forwards;
